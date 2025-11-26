@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class DJPython {
     static char comillas = '"';
-    static void pausar() {  //metodo para pausas de informacion
+    static void pausar() {  //metodo para pausas de información
         System.out.println("\nPresiona ENTER para continuar...");
         try {
             System.in.read();//leer un caracter
@@ -64,7 +64,7 @@ public class DJPython {
                 ejecutando = false;
                 break;
             default:
-                System.out.println("Opción inválida, escribir una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 proceso1();
                 break;
@@ -75,15 +75,15 @@ public class DJPython {
         System.out.println("        |                                                                    |");
         System.out.println("        |                      Elija la Sección Deseada                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |                  1. Descubrimiento Musical                         |");
+        System.out.println("        |                      1. Descubrimiento Musical                     |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |                  2. Teoría Musical                                 |");
+        System.out.println("        |                      2. Teoría Musical                             |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |                  3. Equipo de Audio                                |");
+        System.out.println("        |                      3. Equipo de Audio                            |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |                  4. Librerias                                      |");
+        System.out.println("        |                      4. Librerias                                  |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |                  5. Salir del programa                             |");
+        System.out.println("        |                      5. Salir del programa                         |");
         System.out.println("        |____________________________________________________________________|");}
     public static void descubrimiento(){
         screen();
@@ -123,7 +123,7 @@ public class DJPython {
             case 7: proceso1();
                 break;
             default:
-                System.out.println("Opcion Invalida, elegir una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 descubrimiento();
                 break;
@@ -163,7 +163,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 rockdesint();
                 break;
@@ -227,7 +227,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 popdesint();
                 break;
@@ -292,7 +292,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 folkdesint();
                 break;
@@ -301,18 +301,38 @@ public class DJPython {
     private static void albumfolk() {//lista de albumes de folk
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                          albumes de folk                           |");
+        System.out.println("        |            The Freewheelin’ Bob Dylan – Bob Dylan (1963)           |");
+        System.out.println("        |        Bridge Over Troubled Water – Simon & Garfunkel (1970)       |");
+        System.out.println("        |                     Harvest – Neil Young (1972)                    |");
+        System.out.println("        |                The Lumineers – The Lumineers (2012)                |");
+        System.out.println("        |           Shallow Grave – The Tallest Man on Earth (2008)          |");
+        System.out.println("        |                     Blue – Joni Mitchell (1971)                    |");
+        System.out.println("        |                    Eduardo – Ed Maverick (2021)                    |");
+        System.out.println("        |              Passenger – All the Little Lights (2012)              |");
+        System.out.println("        |          Mix pa’ llorar en tu cuarto – Ed Maverick (2019)          |");
+        System.out.println("        |               Wanted on Voyage – George Ezra (2014)                |");
         System.out.println("        |____________________________________________________________________|");
     }
     private static void artistasfolk() {//lista de artistas de folk
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                          artistas de folk                          |");
+        System.out.println("        |                             Bob Dylan                              |");
+        System.out.println("        |                             Joan Baez                              |");
+        System.out.println("        |                              Bon Iver                              |");
+        System.out.println("        |                            Joni Mitchell                           |");
+        System.out.println("        |                             Neil Young                             |");
+        System.out.println("        |                             Fleet Foxes                            |");
+        System.out.println("        |                           Sufjan Stevens                           |");
+        System.out.println("        |                             Iron & Wine                            |");
+        System.out.println("        |                            José González                           |");
+        System.out.println("        |                             Ed Maverick                            |");
         System.out.println("        |____________________________________________________________________|");    }
     private static void similarfolk() {//lista de generos similares al folk
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                     generos similares al folk                      |");
+        System.out.println("        |                               Country                              |");
+        System.out.println("        |                          Singer-Songwriter                         |");
+        System.out.println("        |                              Americana                             |");
         System.out.println("        |____________________________________________________________________|");    }
     //modulo de indie
     public static void indiedesint(){//lector de indie
@@ -334,7 +354,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 indiedesint();
                 break;
@@ -343,17 +363,37 @@ public class DJPython {
     private static void albumindie() {//lista de albumes de indie
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                          albumes de indie                          |");
+        System.out.println("        |                    quiero dormir - Vicoz (2024)                    |");
+        System.out.println("        |                   Is This It – The Strokes (2001)                  |");
+        System.out.println("        |                   In Rainbows – Radiohead (2007)                   |");
+        System.out.println("        |                    Casa Pepe - Fabiancito (2020)                   |");
+        System.out.println("        |                 Nubes - Policías y Ladrones (2021)                 |");
+        System.out.println("        |               Un Montón - Perras on the beach (2019)               |");
+        System.out.println("        |                     Un Atasco - La Plata (2017)                    |");
+        System.out.println("        |                D>E>A>T>H>M>E>T>A>L - Panchiko (2000)               |");
+        System.out.println("        |                        Para Mi - Cuco (2019)                       |");
+        System.out.println("        |                      Antics – Interpol (2004)                      |");
         System.out.println("        |____________________________________________________________________|");    }
     private static void artistasindie() {//lista de artistas de indie
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                         artistas de indie                          |");
+        System.out.println("        |                                Vicoz                               |");
+        System.out.println("        |                             The Strokes                            |");
+        System.out.println("        |                              Radiohead                             |");
+        System.out.println("        |                             Tame Impala                            |");
+        System.out.println("        |                                alt-J                               |");
+        System.out.println("        |                              La Plata                              |");
+        System.out.println("        |                         Perras on the beach                        |");
+        System.out.println("        |                         Policías y Ladrones                        |");
+        System.out.println("        |                       Margarita Siempre Viva                       |");
+        System.out.println("        |                               Bratty                               |");
         System.out.println("        |____________________________________________________________________|");    }
     private static void similarindie() {// lista de generos similares al indie
         screen();
         System.out.println("        |                                                                    |");
-        System.out.println("        |                     generos similares al indie                     |");
+        System.out.println("        |                          Alternative Rock                          |");
+        System.out.println("        |                              Dream Pop                             |");
+        System.out.println("        |                              Post Punk                             |");
         System.out.println("        |____________________________________________________________________|");    }
     //modulo hip hop
     public static void hipdesint(){//lector de hip hop
@@ -375,7 +415,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 hipdesint();
                 break;
@@ -416,7 +456,7 @@ public class DJPython {
             case 4: descubrimiento();
                 break;
             default:
-                System.out.println("La opción es inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 rbdesint();
                 break;
@@ -464,7 +504,7 @@ public class DJPython {
             case 4: proceso1();
                 break;
             default:
-                System.out.println("Opción inválida, introduce una opcion válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 teoria();
                 break;
@@ -550,7 +590,7 @@ public class DJPython {
             case 7: teoria();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 cuestionarios();
                 break;
@@ -581,7 +621,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 teoria3();
                 break;
@@ -668,7 +708,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -706,7 +746,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 teoria2();
                 break;
@@ -794,7 +834,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -832,7 +872,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 teoria1();
                 break;
@@ -920,7 +960,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -958,7 +998,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 armonia3();
                 break;
@@ -1046,7 +1086,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -1084,7 +1124,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 armonia2();
                 break;
@@ -1171,7 +1211,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -1209,7 +1249,7 @@ public class DJPython {
             case 2: cuestionarios();
                 break;
             default:
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 armonia1();
                 break;
@@ -1296,7 +1336,7 @@ public class DJPython {
             System.out.println("        |____________________________________________________________________|");
             int respuesta = scanner.nextInt();
             if(respuesta<1||respuesta>4) {
-                System.out.println("Opción inválida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 i--;
             }else if (respuesta == respuestasCorrectas[i]) {
@@ -1352,7 +1392,7 @@ public class DJPython {
             case 5: proceso1();
                 break;
             default:
-                System.out.println("Opción inválida, escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 equipo();
                 break;
@@ -1430,7 +1470,7 @@ public class DJPython {
             case 7: proceso1();
                 break;
             default:
-                System.out.println("Opcion inválida, seleccionar una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 librerias();
                 break;
@@ -1463,7 +1503,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 librock();
                 break;
@@ -1506,7 +1546,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 libpop();
                 break;
@@ -1549,7 +1589,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 libfolk();
                 break;
@@ -1592,7 +1632,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 libind();
                 break;
@@ -1635,7 +1675,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 libhip();
                 break;
@@ -1678,7 +1718,7 @@ public class DJPython {
             case 4: librerias();
                 break;
             default:
-                System.out.println("Opción inválida, porfavor escriba una opción válida");
+                System.out.println("La opción es inválida, seleccione una opción válida");
                 pausar();
                 librb();
                 break;
