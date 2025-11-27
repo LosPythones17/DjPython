@@ -610,9 +610,11 @@ public class DJPython {
     private static void teoria3(){
         screen();//aqui se modifica el tema y subtema del cuestionario2
         System.out.println("        |                                                                    |");
-        System.out.println("        |                        Cuestionario Teoria 3                       |");
+        System.out.println("        |                        Cuestionario Melodía 3                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |          Este cuestionario es sobre: \"Organización melódica\"       |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |            Subtema: Frases, motivos, repetición y variación        |");
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
@@ -635,73 +637,73 @@ public class DJPython {
         qstteo3opc2 = new String[10];
         qstteo3opc3 = new String[10];
         qstteo3opc4 = new String[10];
-        qstteo3[0]= "Pregunta 1 teo3                                     |";//asignacion para las preguntas
-        qstteo3[1]= "Pregunta 2 teo3                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstteo3[2]= "Pregunta 3 teo3                                     |";
-        qstteo3[3]= "Pregunta 4 teo3                                     |";
-        qstteo3[4]= "Pregunta 5 teo3                                     |";
-        qstteo3[5]= "Pregunta 6 teo3                                     |";
-        qstteo3[6]= "Pregunta 7 teo3                                     |";
-        qstteo3[7]= "Pregunta 8 teo3                                     |";
-        qstteo3[8]= "Pregunta 9 teo3                                     |";
-        qstteo3[9]= "Pregunta 10 teo3                                   |";
-        qstteo3opc1[0]="opcion 1 teo3 pregunta 1                           |";//opcion 1
-        qstteo3opc1[1]="opcion 1 teo3 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstteo3opc1[2]="opcion 1 teo3 pregunta 3                           |";
-        qstteo3opc1[3]="opcion 1 teo3 pregunta 4                           |";
-        qstteo3opc1[4]="opcion 1 teo3 pregunta 5                           |";
-        qstteo3opc1[5]="opcion 1 teo3 pregunta 6                           |";
-        qstteo3opc1[6]="opcion 1 teo3 pregunta 7                           |";
-        qstteo3opc1[7]="opcion 1 teo3 pregunta 8                           |";
-        qstteo3opc1[8]="opcion 1 teo3 pregunta 9                           |";
-        qstteo3opc1[9]="opcion 1 teo3 pregunta 10                          |";
-        qstteo3opc2[0]="opcion 2 teo3 pregunta 1                           |";//opcion 2
-        qstteo3opc2[1]="opcion 2 teo3 pregunta 2                           |";
-        qstteo3opc2[2]="opcion 2 teo3 pregunta 3                           |";
-        qstteo3opc2[3]="opcion 2 teo3 pregunta 4                           |";
-        qstteo3opc2[4]="opcion 2 teo3 pregunta 5                           |";
-        qstteo3opc2[5]="opcion 2 teo3 pregunta 6                           |";
-        qstteo3opc2[6]="opcion 2 teo3 pregunta 7                           |";
-        qstteo3opc2[7]="opcion 2 teo3 pregunta 8                           |";
-        qstteo3opc2[8]="opcion 2 teo3 pregunta 9                           |";
-        qstteo3opc2[9]="opcion 2 teo3 pregunta 10                          |";
-        qstteo3opc3[0]="opcion 3 teo3 pregunta 1                           |";//opcion 3
-        qstteo3opc3[1]="opcion 3 teo3 pregunta 2                           |";
-        qstteo3opc3[2]="opcion 3 teo3 pregunta 3                           |";
-        qstteo3opc3[3]="opcion 3 teo3 pregunta 4                           |";
-        qstteo3opc3[4]="opcion 3 teo3 pregunta 5                           |";
-        qstteo3opc3[5]="opcion 3 teo3 pregunta 6                           |";
-        qstteo3opc3[6]="opcion 3 teo3 pregunta 7                           |";
-        qstteo3opc3[7]="opcion 3 teo3 pregunta 8                           |";
-        qstteo3opc3[8]="opcion 3 teo3 pregunta 9                           |";
-        qstteo3opc3[9]="opcion 3 teo3 pregunta 10                          |";
-        qstteo3opc4[0]="opcion 4 teo3 pregunta 1                           |";//opcion 4
-        qstteo3opc4[1]="opcion 4 teo3 pregunta 2                           |";
-        qstteo3opc4[2]="opcion 4 teo3 pregunta 3                           |";
-        qstteo3opc4[3]="opcion 4 teo3 pregunta 4                           |";
-        qstteo3opc4[4]="opcion 4 teo3 pregunta 5                           |";
-        qstteo3opc4[5]="opcion 4 teo3 pregunta 6                           |";
-        qstteo3opc4[6]="opcion 4 teo3 pregunta 7                           |";
-        qstteo3opc4[7]="opcion 4 teo3 pregunta 8                           |";
-        qstteo3opc4[8]="opcion 4 teo3 pregunta 9                           |";
-        qstteo3opc4[9]="opcion 4 teo3 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstteo3[0]= "Una frase musical puede describirse como:           |";//asignacion para las preguntas
+        qstteo3[1]= "Un motivo musical es:                               |";//para el formato de cuadro llena 52 espacios y "|"
+        qstteo3[2]= "La repetición de motivos permite que la melodía sea:|";
+        qstteo3[3]= "La variación de un motivo consiste en:              |";
+        qstteo3[4]= "Las melodías suelen organizarse de forma:           |";
+        qstteo3[5]= "Una melodía sin cambios perceptibles se considera:  |";
+        qstteo3[6]= "Una de las funciones del motivo es:                 |";
+        qstteo3[7]= "La relación entre frases melódicas pueden ser:      |";
+        qstteo3[8]= "La dirección melódica se refiere a si la melodía:   |";
+        qstteo3[9]= "Una melodía típica combina:                        |";
+        qstteo3opc1[0]="Una sucesión completa con sentido                 |";//opcion 1
+        qstteo3opc1[1]="Una melodía completa                              |";//para el formato de cuadro llena 51 espacios y "|"
+        qstteo3opc1[2]="Completamente atonal                              |";
+        qstteo3opc1[3]="Mantenerlo igual siempre                          |";
+        qstteo3opc1[4]="Lineal y sucesiva                                 |";
+        qstteo3opc1[5]="Estructurada                                      |";
+        qstteo3opc1[6]="Crear identidad musical                           |";
+        qstteo3opc1[7]="Solo timbre                                       |";
+        qstteo3opc1[8]="Sube, baja o se mantiene                          |";
+        qstteo3opc1[9]="Solo velocidad                                    |";
+        qstteo3opc2[0]="Un acorde largo                                   |";//opcion 2
+        qstteo3opc2[1]="Un patrón corto que puede desarrollarse           |";
+        qstteo3opc2[2]="Más predecible y reconocible                      |";
+        qstteo3opc2[3]="Eliminarlo totalmente                             |";
+        qstteo3opc2[4]="Totalmente simultánea                             |";
+        qstteo3opc2[5]="Muy variada                                       |";
+        qstteo3opc2[6]="Marcar el compás                                  |";
+        qstteo3opc2[7]="Solo respuesta                                    |";
+        qstteo3opc2[8]="Cambiar de ritmo                                  |";
+        qstteo3opc2[9]="Solo repetición                                   |";
+        qstteo3opc3[0]="Un grupo de silencios                             |";//opcion 3
+        qstteo3opc3[1]="Un compás de percusión                            |";
+        qstteo3opc3[2]="Idéntica a la armonía                             |";
+        qstteo3opc3[3]="Cambiarlo ligeramente                             |";
+        qstteo3opc3[4]="Atonal únicamente                                 |";
+        qstteo3opc3[5]="Monótona                                          |";
+        qstteo3opc3[6]="Establecer armonía                                |";
+        qstteo3opc3[7]="Solo silencio                                     |";
+        qstteo3opc3[8]="Cambia de instrumento                             |";
+        qstteo3opc3[9]="Solo silencio                                     |";
+        qstteo3opc4[0]="Un ritmo corto                                    |";//opcion 4
+        qstteo3opc4[1]="Un tipo de escala                                 |";
+        qstteo3opc4[2]="Más difícil de recordar                           |";
+        qstteo3opc4[3]="Remplazarlo por un acorde                         |";
+        qstteo3opc4[4]="Sin cambios                                       |";
+        qstteo3opc4[5]="Compleja                                          |";
+        qstteo3opc4[6]="Reemplazar la letra                               |";
+        qstteo3opc4[7]="Pregunta y respuesta                              |";
+        qstteo3opc4[8]="Usa escalas menores                               |";
+        qstteo3opc4[9]="Repetición y variación                            |";
+        int[] respuestasCorrectas = {1, 2, 2, 3, 1, 3, 1, 4, 1, 4};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstteo3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstteo3opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstteo3opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstteo3opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstteo3opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -721,23 +723,49 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }
     private static void teoria2() {
         screen();//aqui se modifica el tema y subtema del cuestionario2
         System.out.println("        |                                                                    |");
-        System.out.println("        |                        Cuestionario Teoria 2                       |");
+        System.out.println("        |                        Cuestionario Melodía 2                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |          Este cuestionario es sobre: \"Elementos escenciales\"       |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |       Subtema: Duración, altura, cualidad, textura e intensidad    |");
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
@@ -761,73 +789,73 @@ public class DJPython {
         qstteo2opc2 = new String[10];
         qstteo2opc3 = new String[10];
         qstteo2opc4 = new String[10];
-        qstteo2[0]= "Pregunta 1 teo2                                     |";//asignacion para las preguntas
-        qstteo2[1]= "Pregunta 2 teo2                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstteo2[2]= "Pregunta 3 teo2                                     |";
-        qstteo2[3]= "Pregunta 4 teo2                                     |";
-        qstteo2[4]= "Pregunta 5 teo2                                     |";
-        qstteo2[5]= "Pregunta 6 teo2                                     |";
-        qstteo2[6]= "Pregunta 7 teo2                                     |";
-        qstteo2[7]= "Pregunta 8 teo2                                     |";
-        qstteo2[8]= "Pregunta 9 teo2                                     |";
-        qstteo2[9]= "Pregunta 10 teo2                                   |";
-        qstteo2opc1[0]="opcion 1 teo2 pregunta 1                           |";//opcion 1
-        qstteo2opc1[1]="opcion 1 teo2 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstteo2opc1[2]="opcion 1 teo2 pregunta 3                           |";
-        qstteo2opc1[3]="opcion 1 teo2 pregunta 4                           |";
-        qstteo2opc1[4]="opcion 1 teo2 pregunta 5                           |";
-        qstteo2opc1[5]="opcion 1 teo2 pregunta 6                           |";
-        qstteo2opc1[6]="opcion 1 teo2 pregunta 7                           |";
-        qstteo2opc1[7]="opcion 1 teo2 pregunta 8                           |";
-        qstteo2opc1[8]="opcion 1 teo2 pregunta 9                           |";
-        qstteo2opc1[9]="opcion 1 teo2 pregunta 10                          |";
-        qstteo2opc2[0]="opcion 2 teo2 pregunta 1                           |";//opcion 2
-        qstteo2opc2[1]="opcion 2 teo2 pregunta 2                           |";
-        qstteo2opc2[2]="opcion 2 teo2 pregunta 3                           |";
-        qstteo2opc2[3]="opcion 2 teo2 pregunta 4                           |";
-        qstteo2opc2[4]="opcion 2 teo2 pregunta 5                           |";
-        qstteo2opc2[5]="opcion 2 teo2 pregunta 6                           |";
-        qstteo2opc2[6]="opcion 2 teo2 pregunta 7                           |";
-        qstteo2opc2[7]="opcion 2 teo2 pregunta 8                           |";
-        qstteo2opc2[8]="opcion 2 teo2 pregunta 9                           |";
-        qstteo2opc2[9]="opcion 2 teo2 pregunta 10                          |";
-        qstteo2opc3[0]="opcion 3 teo2 pregunta 1                           |";//opcion 3
-        qstteo2opc3[1]="opcion 3 teo2 pregunta 2                           |";
-        qstteo2opc3[2]="opcion 3 teo2 pregunta 3                           |";
-        qstteo2opc3[3]="opcion 3 teo2 pregunta 4                           |";
-        qstteo2opc3[4]="opcion 3 teo2 pregunta 5                           |";
-        qstteo2opc3[5]="opcion 3 teo2 pregunta 6                           |";
-        qstteo2opc3[6]="opcion 3 teo2 pregunta 7                           |";
-        qstteo2opc3[7]="opcion 3 teo2 pregunta 8                           |";
-        qstteo2opc3[8]="opcion 3 teo2 pregunta 9                           |";
-        qstteo2opc3[9]="opcion 3 teo2 pregunta 10                          |";
-        qstteo2opc4[0]="opcion 4 teo2 pregunta 1                           |";//opcion 4
-        qstteo2opc4[1]="opcion 4 teo2 pregunta 2                           |";
-        qstteo2opc4[2]="opcion 4 teo2 pregunta 3                           |";
-        qstteo2opc4[3]="opcion 4 teo2 pregunta 4                           |";
-        qstteo2opc4[4]="opcion 4 teo2 pregunta 5                           |";
-        qstteo2opc4[5]="opcion 4 teo2 pregunta 6                           |";
-        qstteo2opc4[6]="opcion 4 teo2 pregunta 7                           |";
-        qstteo2opc4[7]="opcion 4 teo2 pregunta 8                           |";
-        qstteo2opc4[8]="opcion 4 teo2 pregunta 9                           |";
-        qstteo2opc4[9]="opcion 4 teo2 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstteo2[0]= "Determina cuanto dura un sonido en la melodía, es:  |";//asignacion para las preguntas
+        qstteo2[1]= "La altura diferencía entre sonidos:                 |";//para el formato de cuadro llena 52 espacios y "|"
+        qstteo2[2]= "La cualidad de la melodía se relaciona con:         |";
+        qstteo2[3]= "La intensidad expresa:                              |";
+        qstteo2[4]= "La textura melódica se refiere a:                   |";
+        qstteo2[5]= "La melodía con cambios muy marcados se percibe como:|";
+        qstteo2[6]= "La combinación de duración y altura produce:        |";
+        qstteo2[7]= "La cualidad sonora de una melodía puede cambiar por:|";
+        qstteo2[8]= "La textura monofónica implica:                      |";
+        qstteo2[9]= "La intensidad se interpreta mediante:              |";
+        qstteo2opc1[0]="Textura                                           |";//opcion 1
+        qstteo2opc1[1]="Graves y agudos                                   |";//para el formato de cuadro llena 51 espacios y "|"
+        qstteo2opc1[2]="El timbre y tipo de sonido                        |";
+        qstteo2opc1[3]="El tipo de escala usada                           |";
+        qstteo2opc1[4]="La forma de la partitura                          |";
+        qstteo2opc1[5]="Monótona                                          |";
+        qstteo2opc1[6]="Silencios rítmicos                                |";
+        qstteo2opc1[7]="Cambiar el tempo solo                             |";
+        qstteo2opc1[8]="Una línea melódica única                          |";
+        qstteo2opc1[9]="Figuras rítmicas                                  |";
+        qstteo2opc2[0]="Duración                                          |";//opcion 2
+        qstteo2opc2[1]="Lentos y rápidos                                  |";
+        qstteo2opc2[2]="El número de silencios                            |";
+        qstteo2opc2[3]="Si las notas son simultáneas                      |";
+        qstteo2opc2[4]="El color visual de una nota                       |";
+        qstteo2opc2[5]="Dinámica                                          |";
+        qstteo2opc2[6]="Un compás                                         |";
+        qstteo2opc2[7]="Cambiar el instrumento que la toca                |";
+        qstteo2opc2[8]="Varias melodías simultáneas                       |";
+        qstteo2opc2[9]="Armaduras                                         |";
+        qstteo2opc3[0]="Intensidad                                        |";//opcion 3
+        qstteo2opc3[1]="Suaves y fuertes                                  |";
+        qstteo2opc3[2]="El volúmen                                        |";
+        qstteo2opc3[3]="Que tan fuerte o suave es un sonido               |";
+        qstteo2opc3[4]="La afinación de un instrumento                    |";
+        qstteo2opc3[5]="Acordal                                           |";
+        qstteo2opc3[6]="Una progresión armónica                           |";
+        qstteo2opc3[7]="Cambiar la letra                                  |";
+        qstteo2opc3[8]="Acordes complejos                                 |";
+        qstteo2opc3[9]="Dinámicas (p,f,mf...)                             |";
+        qstteo2opc4[0]="Cualidad                                          |";//opcion 4
+        qstteo2opc4[1]="Cortos y largos                                   |";
+        qstteo2opc4[2]="La rapidéz                                        |";
+        qstteo2opc4[3]="La velocidad del ritmo                            |";
+        qstteo2opc4[4]="Como se combinan líneas musicales                 |";
+        qstteo2opc4[5]="Estática                                          |";
+        qstteo2opc4[6]="La forma melódica                                 |";
+        qstteo2opc4[7]="Eliminar variación de altura                      |";
+        qstteo2opc4[8]="Efectos electrónicos                              |";
+        qstteo2opc4[9]="Matices de tempo                                  |";
+        int[] respuestasCorrectas = {2, 1, 1, 3, 4, 2, 4, 2, 1, 3};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstteo2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstteo2opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstteo2opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstteo2opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstteo2opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -847,23 +875,49 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }
     private static void teoria1() {
         screen();//aqui se modifica el tema y subtema del cuestionario2
         System.out.println("        |                                                                    |");
-        System.out.println("        |                        Cuestionario Teoria 1                       |");
+        System.out.println("        |                        Cuestionario Melodía 1                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |          Este cuestionario es sobre: \"Conceptos esenciales\"        |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |          Subtema: Definición, características y percepción         |");
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
@@ -887,73 +941,73 @@ public class DJPython {
         qstteo1opc2 = new String[10];
         qstteo1opc3 = new String[10];
         qstteo1opc4 = new String[10];
-        qstteo1[0]= "Pregunta 1 teo1                                     |";//asignacion para las preguntas
-        qstteo1[1]= "Pregunta 2 teo1                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstteo1[2]= "Pregunta 3 teo1                                     |";
-        qstteo1[3]= "Pregunta 4 teo1                                     |";
-        qstteo1[4]= "Pregunta 5 teo1                                     |";
-        qstteo1[5]= "Pregunta 6 teo1                                     |";
-        qstteo1[6]= "Pregunta 7 teo1                                     |";
-        qstteo1[7]= "Pregunta 8 teo1                                     |";
-        qstteo1[8]= "Pregunta 9 teo1                                     |";
-        qstteo1[9]= "Pregunta 10 teo1                                   |";
-        qstteo1opc1[0]="opcion 1 teo1 pregunta 1                           |";//opcion 1
-        qstteo1opc1[1]="opcion 1 teo1 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstteo1opc1[2]="opcion 1 teo1 pregunta 3                           |";
-        qstteo1opc1[3]="opcion 1 teo1 pregunta 4                           |";
-        qstteo1opc1[4]="opcion 1 teo1 pregunta 5                           |";
-        qstteo1opc1[5]="opcion 1 teo1 pregunta 6                           |";
-        qstteo1opc1[6]="opcion 1 teo1 pregunta 7                           |";
-        qstteo1opc1[7]="opcion 1 teo1 pregunta 8                           |";
-        qstteo1opc1[8]="opcion 1 teo1 pregunta 9                           |";
-        qstteo1opc1[9]="opcion 1 teo1 pregunta 10                          |";
-        qstteo1opc2[0]="opcion 2 teo1 pregunta 1                           |";//opcion 2
-        qstteo1opc2[1]="opcion 2 teo1 pregunta 2                           |";
-        qstteo1opc2[2]="opcion 2 teo1 pregunta 3                           |";
-        qstteo1opc2[3]="opcion 2 teo1 pregunta 4                           |";
-        qstteo1opc2[4]="opcion 2 teo1 pregunta 5                           |";
-        qstteo1opc2[5]="opcion 2 teo1 pregunta 6                           |";
-        qstteo1opc2[6]="opcion 2 teo1 pregunta 7                           |";
-        qstteo1opc2[7]="opcion 2 teo1 pregunta 8                           |";
-        qstteo1opc2[8]="opcion 2 teo1 pregunta 9                           |";
-        qstteo1opc2[9]="opcion 2 teo1 pregunta 10                          |";
-        qstteo1opc3[0]="opcion 3 teo1 pregunta 1                           |";//opcion 3
-        qstteo1opc3[1]="opcion 3 teo1 pregunta 2                           |";
-        qstteo1opc3[2]="opcion 3 teo1 pregunta 3                           |";
-        qstteo1opc3[3]="opcion 3 teo1 pregunta 4                           |";
-        qstteo1opc3[4]="opcion 3 teo1 pregunta 5                           |";
-        qstteo1opc3[5]="opcion 3 teo1 pregunta 6                           |";
-        qstteo1opc3[6]="opcion 3 teo1 pregunta 7                           |";
-        qstteo1opc3[7]="opcion 3 teo1 pregunta 8                           |";
-        qstteo1opc3[8]="opcion 3 teo1 pregunta 9                           |";
-        qstteo1opc3[9]="opcion 3 teo1 pregunta 10                          |";
-        qstteo1opc4[0]="opcion 4 teo1 pregunta 1                           |";//opcion 4
-        qstteo1opc4[1]="opcion 4 teo1 pregunta 2                           |";
-        qstteo1opc4[2]="opcion 4 teo1 pregunta 3                           |";
-        qstteo1opc4[3]="opcion 4 teo1 pregunta 4                           |";
-        qstteo1opc4[4]="opcion 4 teo1 pregunta 5                           |";
-        qstteo1opc4[5]="opcion 4 teo1 pregunta 6                           |";
-        qstteo1opc4[6]="opcion 4 teo1 pregunta 7                           |";
-        qstteo1opc4[7]="opcion 4 teo1 pregunta 8                           |";
-        qstteo1opc4[8]="opcion 4 teo1 pregunta 9                           |";
-        qstteo1opc4[9]="opcion 4 teo1 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstteo1[0]= "La melodía se define como:                          |";//asignacion para las preguntas
+        qstteo1[1]= "La melodía se considera una entidad cuando:         |";//para el formato de cuadro llena 52 espacios y "|"
+        qstteo1[2]= "Diferencia clave entre melodía y acorde:            |";
+        qstteo1[3]= "Para que exista melodía debe haber:                 |";
+        qstteo1[4]= "un \"motivo\" es:                                     |";
+        qstteo1[5]= "Las melodías suelen organizarse en:                 |";
+        qstteo1[6]= "La música occidental se basa en una escala de:      |";
+        qstteo1[7]= "El elemento que define la altura de los sonidos es: |";
+        qstteo1[8]= "Las melodías pueden describirse como:               |";
+        qstteo1[9]= "La melodía es generalmente:                        |";
+        qstteo1opc1[0]="Sonidos simultáneos                               |";//opcion 1
+        qstteo1opc1[1]="No presenta ningún cambio                         |";//para el formato de cuadro llena 51 espacios y "|"
+        qstteo1opc1[2]="Es simultánea                                     |";
+        qstteo1opc1[3]="Cambios perceptibles                              |";
+        qstteo1opc1[4]="Otra palabra para armonía                         |";
+        qstteo1opc1[5]="Frases musicales                                  |";
+        qstteo1opc1[6]="6 tonos                                           |";
+        qstteo1opc1[7]="Duración                                          |";
+        qstteo1opc1[8]="Líneas sonoras                                    |";
+        qstteo1opc1[9]="El acompañamiento                                 |";
+        qstteo1opc2[0]="Una sucesión de sonidos graves y agudos           |";//opcion 2
+        qstteo1opc2[1]="Solo usa sonidos graves                           |";
+        qstteo1opc2[2]="No contiene ritmo                                 |";
+        qstteo1opc2[3]="Intensidad constante                              |";
+        qstteo1opc2[4]="Un patrón corto que puede repetirse               |";
+        qstteo1opc2[5]="Capítulos                                         |";
+        qstteo1opc2[6]="8 tonos                                           |";
+        qstteo1opc2[7]="Intensidad                                        |";
+        qstteo1opc2[8]="Acordes compuestos                                |";
+        qstteo1opc2[9]="La idea musical principal                         |";
+        qstteo1opc3[0]="Un conjunto de acordes                            |";//opcion 3
+        qstteo1opc3[1]="Sus sonidos se perciben somo una unidad           |";
+        qstteo1opc3[2]="Es sucesiva                                       |";
+        qstteo1opc3[3]="Silencio total                                    |";
+        qstteo1opc3[4]="Un tipo de acorde                                 |";
+        qstteo1opc3[5]="Tonos simultáneos                                 |";
+        qstteo1opc3[6]="10 tonos                                          |";
+        qstteo1opc3[7]="Timbre                                            |";
+        qstteo1opc3[8]="Texturas estáticas                                |";
+        qstteo1opc3[9]="Un ruido de fondo                                 |";
+        qstteo1opc4[0]="Un ritmo constante                                |";//opcion 4
+        qstteo1opc4[1]="Es idéntica a la armonía                          |";
+        qstteo1opc4[2]="Siempre es aguda                                  |";
+        qstteo1opc4[3]="Solo sonidos iguales                              |";
+        qstteo1opc4[4]="Una escala completa                               |";
+        qstteo1opc4[5]="Vibraciones                                       |";
+        qstteo1opc4[6]="12 tonos                                          |";
+        qstteo1opc4[7]="Frecuencia                                        |";
+        qstteo1opc4[8]="Ritmos planos                                     |";
+        qstteo1opc4[9]="Un conjunto de silencio                           |";
+        int[] respuestasCorrectas = {2, 3, 3, 1, 2, 1, 4, 4, 1, 2};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstteo1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstteo1opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstteo1opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstteo1opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstteo1opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -973,23 +1027,49 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }
     private static void armonia3() {
         screen();//aqui se modifica el tema y subtema del cuestionario
         System.out.println("        |                                                                    |");
         System.out.println("        |                        Cuestionario Armonia 3                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |         Este cuestionario es sobre: \"Organización armónica\"        |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |          Subtema: Tonalidad, modos y cambios de centro tonal       |");
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
@@ -1013,73 +1093,73 @@ public class DJPython {
         qstarm3opc2 = new String[10];
         qstarm3opc3 = new String[10];
         qstarm3opc4 = new String[10];
-        qstarm3[0]= "Pregunta 1 arm3                                     |";//asignacion para las preguntas
-        qstarm3[1]= "Pregunta 2 arm3                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstarm3[2]= "Pregunta 3 arm3                                     |";
-        qstarm3[3]= "Pregunta 4 arm3                                     |";
-        qstarm3[4]= "Pregunta 5 arm3                                     |";
-        qstarm3[5]= "Pregunta 6 arm3                                     |";
-        qstarm3[6]= "Pregunta 7 arm3                                     |";
-        qstarm3[7]= "Pregunta 8 arm3                                     |";
-        qstarm3[8]= "Pregunta 9 arm3                                     |";
-        qstarm3[9]= "Pregunta 10 arm3                                   |";
-        qstarm3opc1[0]="opcion 1 arm3 pregunta 1                           |";//opcion 1
-        qstarm3opc1[1]="opcion 1 arm3 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstarm3opc1[2]="opcion 1 arm3 pregunta 3                           |";
-        qstarm3opc1[3]="opcion 1 arm3 pregunta 4                           |";
-        qstarm3opc1[4]="opcion 1 arm3 pregunta 5                           |";
-        qstarm3opc1[5]="opcion 1 arm3 pregunta 6                           |";
-        qstarm3opc1[6]="opcion 1 arm3 pregunta 7                           |";
-        qstarm3opc1[7]="opcion 1 arm3 pregunta 8                           |";
-        qstarm3opc1[8]="opcion 1 arm3 pregunta 9                           |";
-        qstarm3opc1[9]="opcion 1 arm3 pregunta 10                          |";
-        qstarm3opc2[0]="opcion 2 arm3 pregunta 1                           |";//opcion 2
-        qstarm3opc2[1]="opcion 2 arm3 pregunta 2                           |";
-        qstarm3opc2[2]="opcion 2 arm3 pregunta 3                           |";
-        qstarm3opc2[3]="opcion 2 arm3 pregunta 4                           |";
-        qstarm3opc2[4]="opcion 2 arm3 pregunta 5                           |";
-        qstarm3opc2[5]="opcion 2 arm3 pregunta 6                           |";
-        qstarm3opc2[6]="opcion 2 arm3 pregunta 7                           |";
-        qstarm3opc2[7]="opcion 2 arm3 pregunta 8                           |";
-        qstarm3opc2[8]="opcion 2 arm3 pregunta 9                           |";
-        qstarm3opc2[9]="opcion 2 arm3 pregunta 10                          |";
-        qstarm3opc3[0]="opcion 3 arm3 pregunta 1                           |";//opcion 3
-        qstarm3opc3[1]="opcion 3 arm3 pregunta 2                           |";
-        qstarm3opc3[2]="opcion 3 arm3 pregunta 3                           |";
-        qstarm3opc3[3]="opcion 3 arm3 pregunta 4                           |";
-        qstarm3opc3[4]="opcion 3 arm3 pregunta 5                           |";
-        qstarm3opc3[5]="opcion 3 arm3 pregunta 6                           |";
-        qstarm3opc3[6]="opcion 3 arm3 pregunta 7                           |";
-        qstarm3opc3[7]="opcion 3 arm3 pregunta 8                           |";
-        qstarm3opc3[8]="opcion 3 arm3 pregunta 9                           |";
-        qstarm3opc3[9]="opcion 3 arm3 pregunta 10                          |";
-        qstarm3opc4[0]="opcion 4 arm3 pregunta 1                           |";//opcion 4
-        qstarm3opc4[1]="opcion 4 arm3 pregunta 2                           |";
-        qstarm3opc4[2]="opcion 4 arm3 pregunta 3                           |";
-        qstarm3opc4[3]="opcion 4 arm3 pregunta 4                           |";
-        qstarm3opc4[4]="opcion 4 arm3 pregunta 5                           |";
-        qstarm3opc4[5]="opcion 4 arm3 pregunta 6                           |";
-        qstarm3opc4[6]="opcion 4 arm3 pregunta 7                           |";
-        qstarm3opc4[7]="opcion 4 arm3 pregunta 8                           |";
-        qstarm3opc4[8]="opcion 4 arm3 pregunta 9                           |";
-        qstarm3opc4[9]="opcion 4 arm3 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstarm3[0]= "La tonalidad está basada en un:                     |";//asignacion para las preguntas
+        qstarm3[1]= "El centro tonal recibe el nombre de:                |";//para el formato de cuadro llena 52 espacios y "|"
+        qstarm3[2]= "La modulación se refiere a:                         |";
+        qstarm3[3]= "La tonalidad mayor suele percibirse como:           |";
+        qstarm3[4]= "La tonalidad menor se percibe normalmente como:     |";
+        qstarm3[5]= "La armadura de clave indica:                        |";
+        qstarm3[6]= "Modulación cercana significa:                       |";
+        qstarm3[7]= "Un modo musical es:                                 |";
+        qstarm3[8]= "La modulación suele usarse para:                    |";
+        qstarm3[9]= "Un ejemplo de modulación común es pasar de:        |";
+        qstarm3opc1[0]="Ritmo constante                                   |";//opcion 1
+        qstarm3opc1[1]="Dominante                                         |";//para el formato de cuadro llena 51 espacios y "|"
+        qstarm3opc1[2]="Cambiar de velocidad                              |";
+        qstarm3opc1[3]="Oscura                                            |";
+        qstarm3opc1[4]="Triste o melancólica                              |";
+        qstarm3opc1[5]="El tipo de instrumento                            |";
+        qstarm3opc1[6]="Cambiar a una tonalidad vecina                    |";
+        qstarm3opc1[7]="Un tipo de acorde                                 |";
+        qstarm3opc1[8]="Afinar el instrumento                             |";
+        qstarm3opc1[9]="Do mayor a Sol mayor                              |";
+        qstarm3opc2[0]="Centro tonal                                      |";//opcion 2
+        qstarm3opc2[1]="Subdominante                                      |";
+        qstarm3opc2[2]="Cambiar de tonalidad                              |";
+        qstarm3opc2[3]="Inestable                                         |";
+        qstarm3opc2[4]="Ruidosa                                           |";
+        qstarm3opc2[5]="La cantidad de acordes                            |";
+        qstarm3opc2[6]="Cambiar a una tonalidad muy lejana                |";
+        qstarm3opc2[7]="Un efecto rítmico                                 |";
+        qstarm3opc2[8]="Acelerar el tempo                                 |";
+        qstarm3opc2[9]="Do mayor a Si mayor                               |";
+        qstarm3opc3[0]="Instrumento principal                             |";//opcion 3
+        qstarm3opc3[1]="Tónica                                            |";
+        qstarm3opc3[2]="Cambiar de melisma                                |";
+        qstarm3opc3[3]="Luminosamente estable                             |";
+        qstarm3opc3[4]="Atonal                                            |";
+        qstarm3opc3[5]="Las alteraciones de la tonalidad                  |";
+        qstarm3opc3[6]="Cambiar de compás                                 |";
+        qstarm3opc3[7]="Un instrumento antiguo                            |";
+        qstarm3opc3[8]="Bajar el volumen                                  |";
+        qstarm3opc3[9]="Do mayor a Fa# menor                              |";
+        qstarm3opc4[0]="Efecto de sonido                                  |";//opcion 4
+        qstarm3opc4[1]="Octava                                            |";
+        qstarm3opc4[2]="Cambiar de instrumento                            |";
+        qstarm3opc4[3]="Sin ritmo                                         |";
+        qstarm3opc4[4]="Muy brillante                                     |";
+        qstarm3opc4[5]="El número de repeticiones                         |";
+        qstarm3opc4[6]="Cambiar de melodía                                |";
+        qstarm3opc4[7]="Una forma de organizar la escala                  |";
+        qstarm3opc4[8]="Cambiar a la emoción o color armónico             |";
+        qstarm3opc4[9]="Do mayor a Mib menor                              |";
+        int[] respuestasCorrectas = {2, 3, 2, 3, 1, 3, 1, 4, 4, 1};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstarm3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstarm3opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstarm3opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstarm3opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstarm3opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -1099,23 +1179,50 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }
     private static void armonia2(){
         screen();//aqui se modifica el tema y subtema del cuestionario
         System.out.println("        |                                                                    |");
         System.out.println("        |                        Cuestionario Armonia 2                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |          Este cuestionario es sobre: \"Componentes armónicos\"       |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |             Subtema: Intervalos, acordes y progresiones            |");
+
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
@@ -1138,73 +1245,73 @@ public class DJPython {
         qstarm2opc2 = new String[10];
         qstarm2opc3 = new String[10];
         qstarm2opc4 = new String[10];
-        qstarm2[0]= "Pregunta 1 arm2                                     |";//asignacion para las preguntas
-        qstarm2[1]= "Pregunta 2 arm2                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstarm2[2]= "Pregunta 3 arm2                                     |";
-        qstarm2[3]= "Pregunta 4 arm2                                     |";
-        qstarm2[4]= "Pregunta 5 arm2                                     |";
-        qstarm2[5]= "Pregunta 6 arm2                                     |";
-        qstarm2[6]= "Pregunta 7 arm2                                     |";
-        qstarm2[7]= "Pregunta 8 arm2                                     |";
-        qstarm2[8]= "Pregunta 9 arm2                                     |";
-        qstarm2[9]= "Pregunta 10 arm2                                   |";
-        qstarm2opc1[0]="opcion 1 arm2 pregunta 1                           |";//opcion 1
-        qstarm2opc1[1]="opcion 1 arm2 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstarm2opc1[2]="opcion 1 arm2 pregunta 3                           |";
-        qstarm2opc1[3]="opcion 1 arm2 pregunta 4                           |";
-        qstarm2opc1[4]="opcion 1 arm2 pregunta 5                           |";
-        qstarm2opc1[5]="opcion 1 arm2 pregunta 6                           |";
-        qstarm2opc1[6]="opcion 1 arm2 pregunta 7                           |";
-        qstarm2opc1[7]="opcion 1 arm2 pregunta 8                           |";
-        qstarm2opc1[8]="opcion 1 arm2 pregunta 9                           |";
-        qstarm2opc1[9]="opcion 1 arm2 pregunta 10                          |";
-        qstarm2opc2[0]="opcion 2 arm2 pregunta 1                           |";//opcion 2
-        qstarm2opc2[1]="opcion 2 arm2 pregunta 2                           |";
-        qstarm2opc2[2]="opcion 2 arm2 pregunta 3                           |";
-        qstarm2opc2[3]="opcion 2 arm2 pregunta 4                           |";
-        qstarm2opc2[4]="opcion 2 arm2 pregunta 5                           |";
-        qstarm2opc2[5]="opcion 2 arm2 pregunta 6                           |";
-        qstarm2opc2[6]="opcion 2 arm2 pregunta 7                           |";
-        qstarm2opc2[7]="opcion 2 arm2 pregunta 8                           |";
-        qstarm2opc2[8]="opcion 2 arm2 pregunta 9                           |";
-        qstarm2opc2[9]="opcion 2 arm2 pregunta 10                          |";
-        qstarm2opc3[0]="opcion 3 arm2 pregunta 1                           |";//opcion 3
-        qstarm2opc3[1]="opcion 3 arm2 pregunta 2                           |";
-        qstarm2opc3[2]="opcion 3 arm2 pregunta 3                           |";
-        qstarm2opc3[3]="opcion 3 arm2 pregunta 4                           |";
-        qstarm2opc3[4]="opcion 3 arm2 pregunta 5                           |";
-        qstarm2opc3[5]="opcion 3 arm2 pregunta 6                           |";
-        qstarm2opc3[6]="opcion 3 arm2 pregunta 7                           |";
-        qstarm2opc3[7]="opcion 3 arm2 pregunta 8                           |";
-        qstarm2opc3[8]="opcion 3 arm2 pregunta 9                           |";
-        qstarm2opc3[9]="opcion 3 arm2 pregunta 10                          |";
-        qstarm2opc4[0]="opcion 4 arm2 pregunta 1                           |";//opcion 4
-        qstarm2opc4[1]="opcion 4 arm2 pregunta 2                           |";
-        qstarm2opc4[2]="opcion 4 arm2 pregunta 3                           |";
-        qstarm2opc4[3]="opcion 4 arm2 pregunta 4                           |";
-        qstarm2opc4[4]="opcion 4 arm2 pregunta 5                           |";
-        qstarm2opc4[5]="opcion 4 arm2 pregunta 6                           |";
-        qstarm2opc4[6]="opcion 4 arm2 pregunta 7                           |";
-        qstarm2opc4[7]="opcion 4 arm2 pregunta 8                           |";
-        qstarm2opc4[8]="opcion 4 arm2 pregunta 9                           |";
-        qstarm2opc4[9]="opcion 4 arm2 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstarm2[0]= "Un intervalo es:                                    |";//asignacion para las preguntas
+        qstarm2[1]= "Un acorde está formado principalmente por:          |";//para el formato de cuadro llena 52 espacios y "|"
+        qstarm2[2]= "Una progresión armónica consiste en:                |";
+        qstarm2[3]= "Una característica de los acordes consonantes es:   |";
+        qstarm2[4]= "Una característica de los acordes disonantes es:    |";
+        qstarm2[5]= "El acorde dominante tiende a:                       |";
+        qstarm2[6]= "La función armónica relaciona:                      |";
+        qstarm2[7]= "Una progresión típica de música popular es:         |";
+        qstarm2[8]= "El intervalo de tercera mayor se considera:         |";
+        qstarm2[9]= "Un acorde menor se forma con:                      |";
+        qstarm2opc1[0]="La diferencia de altura entre dos notas           |";//opcion 1
+        qstarm2opc1[1]="Una nota sola                                     |";//para el formato de cuadro llena 51 espacios y "|"
+        qstarm2opc1[2]="Un cambio de tonalidad                            |";
+        qstarm2opc1[3]="Genera tensión                                    |";
+        qstarm2opc1[4]="Producen estabilidad                              |";
+        qstarm2opc1[5]="Mantener el reposo                                |";
+        qstarm2opc1[6]="La velocidad del compás                           |";
+        qstarm2opc1[7]="I–IV–V–I                                          |";
+        qstarm2opc1[8]="Consonante                                        |";
+        qstarm2opc1[9]="Tercera mayor + quinta justa                      |";
+        qstarm2opc2[0]="Un acorde invertido                               |";//opcion 2
+        qstarm2opc2[1]="Dos notas consecutivas                            |";
+        qstarm2opc2[2]="La repetición de una misma nota                   |";
+        qstarm2opc2[3]="Producen sensación de reposo                      |";
+        qstarm2opc2[4]="Se perciben como \"suaves\"                         |";
+        qstarm2opc2[5]="Resolver hacia la tónica                          |";
+        qstarm2opc2[6]="Los instrumentos usados                           |";
+        qstarm2opc2[7]="VI–II–III–I                                       |";
+        qstarm2opc2[8]="Disonante                                         |";
+        qstarm2opc2[9]="Segunda mayor + quinta justa                      |";
+        qstarm2opc3[0]="Un cambio de compás                               |";//opcion 3
+        qstarm2opc3[1]="Silencios prolongados                             |";
+        qstarm2opc3[2]="El cambio de ritmo                                |";
+        qstarm2opc3[3]="Son rítmicos                                      |";
+        qstarm2opc3[4]="Generan tensión que pide resolución               |";
+        qstarm2opc3[5]="Detener la progresión                             |";
+        qstarm2opc3[6]="Los acordes dentro de una tonalidad               |";
+        qstarm2opc3[7]="V-V-V-V                                           |";
+        qstarm2opc3[8]="Atonal                                            |";
+        qstarm2opc3[9]="Tercera menor + quinta justa                      |";
+        qstarm2opc4[0]="Una melodía corta                                 |";//opcion 4
+        qstarm2opc4[1]="Tres o más notas simultáneas                      |";
+        qstarm2opc4[2]="Una serie ordenada de acordes                     |";
+        qstarm2opc4[3]="Son siempre llanos                                |";
+        qstarm2opc4[4]="Son siempre acordes mayores                       |";
+        qstarm2opc4[5]="Cambiar la métrica                                |";
+        qstarm2opc4[6]="El tipo de timbre                                 |";
+        qstarm2opc4[7]="I–II–I–II                                         |";
+        qstarm2opc4[8]="Rítmico                                           |";
+        qstarm2opc4[9]="Tercera menor + quinta disminuida                 |";
+        int[] respuestasCorrectas = {1, 4, 4, 2, 3, 2, 3, 1, 1, 3};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstarm2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstarm2opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstarm2opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstarm2opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstarm2opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -1224,27 +1331,53 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }
     public static void armonia1() {
         screen();//aqui se modifica el tema y subtema del cuestionario
         System.out.println("        |                                                                    |");
         System.out.println("        |                        Cuestionario Armonia 1                      |");
         System.out.println("        |                                                                    |");
-        System.out.println("        |          Este cuestionario es sobre TEMA sección SUBTEMA           |");
+        System.out.println("        |          Este cuestionario es sobre: \"Conceptos Básicos\"           |");
+        System.out.println("        |                                                                    |");
+        System.out.println("        |                 Subtema: Definiciones esenciales                   |");
         menucuestionarios();
         int userqstint = scanner.nextInt();
         switch(userqstint){
-            case 1: teoria1_1();
+            case 1: armonia1_1();
                 break;
             case 2: cuestionarios();
                 break;
@@ -1263,73 +1396,73 @@ public class DJPython {
         qstarm1opc2 = new String[10];
         qstarm1opc3 = new String[10];
         qstarm1opc4 = new String[10];
-        qstarm1[0]= "Pregunta 1 arm1                                     |";//asignacion para las preguntas
-        qstarm1[1]= "Pregunta 2 arm1                                     |";//para el formato de cuadro llena 52 espacios y "|"
-        qstarm1[2]= "Pregunta 3 arm1                                     |";
-        qstarm1[3]= "Pregunta 4 arm1                                     |";
-        qstarm1[4]= "Pregunta 5 arm1                                     |";
-        qstarm1[5]= "Pregunta 6 arm1                                     |";
-        qstarm1[6]= "Pregunta 7 arm1                                     |";
-        qstarm1[7]= "Pregunta 8 arm1                                     |";
-        qstarm1[8]= "Pregunta 9 arm1                                     |";
-        qstarm1[9]= "Pregunta 10 arm1                                   |";
-        qstarm1opc1[0]="opcion 1 arm1 pregunta 1                           |";//opcion 1
-        qstarm1opc1[1]="opcion 1 arm1 pregunta 2                           |";//para el formato de cuadro llena 51 espacios y "|"
-        qstarm1opc1[2]="opcion 1 arm1 pregunta 3                           |";
-        qstarm1opc1[3]="opcion 1 arm1 pregunta 4                           |";
-        qstarm1opc1[4]="opcion 1 arm1 pregunta 5                           |";
-        qstarm1opc1[5]="opcion 1 arm1 pregunta 6                           |";
-        qstarm1opc1[6]="opcion 1 arm1 pregunta 7                           |";
-        qstarm1opc1[7]="opcion 1 arm1 pregunta 8                           |";
-        qstarm1opc1[8]="opcion 1 arm1 pregunta 9                           |";
-        qstarm1opc1[9]="opcion 1 arm1 pregunta 10                          |";
-        qstarm1opc2[0]="opcion 2 arm1 pregunta 1                           |";//opcion 2
-        qstarm1opc2[1]="opcion 2 arm1 pregunta 2                           |";
-        qstarm1opc2[2]="opcion 2 arm1 pregunta 3                           |";
-        qstarm1opc2[3]="opcion 2 arm1 pregunta 4                           |";
-        qstarm1opc2[4]="opcion 2 arm1 pregunta 5                           |";
-        qstarm1opc2[5]="opcion 2 arm1 pregunta 6                           |";
-        qstarm1opc2[6]="opcion 2 arm1 pregunta 7                           |";
-        qstarm1opc2[7]="opcion 2 arm1 pregunta 8                           |";
-        qstarm1opc2[8]="opcion 2 arm1 pregunta 9                           |";
-        qstarm1opc2[9]="opcion 2 arm1 pregunta 10                          |";
-        qstarm1opc3[0]="opcion 3 arm1 pregunta 1                           |";//opcion 3
-        qstarm1opc3[1]="opcion 3 arm1 pregunta 2                           |";
-        qstarm1opc3[2]="opcion 3 arm1 pregunta 3                           |";
-        qstarm1opc3[3]="opcion 3 arm1 pregunta 4                           |";
-        qstarm1opc3[4]="opcion 3 arm1 pregunta 5                           |";
-        qstarm1opc3[5]="opcion 3 arm1 pregunta 6                           |";
-        qstarm1opc3[6]="opcion 3 arm1 pregunta 7                           |";
-        qstarm1opc3[7]="opcion 3 arm1 pregunta 8                           |";
-        qstarm1opc3[8]="opcion 3 arm1 pregunta 9                           |";
-        qstarm1opc3[9]="opcion 3 arm1 pregunta 10                          |";
-        qstarm1opc4[0]="opcion 4 arm1 pregunta 1                           |";//opcion 4
-        qstarm1opc4[1]="opcion 4 arm1 pregunta 2                           |";
-        qstarm1opc4[2]="opcion 4 arm1 pregunta 3                           |";
-        qstarm1opc4[3]="opcion 4 arm1 pregunta 4                           |";
-        qstarm1opc4[4]="opcion 4 arm1 pregunta 5                           |";
-        qstarm1opc4[5]="opcion 4 arm1 pregunta 6                           |";
-        qstarm1opc4[6]="opcion 4 arm1 pregunta 7                           |";
-        qstarm1opc4[7]="opcion 4 arm1 pregunta 8                           |";
-        qstarm1opc4[8]="opcion 4 arm1 pregunta 9                           |";
-        qstarm1opc4[9]="opcion 4 arm1 pregunta 10                          |";
-        int[] respuestasCorrectas = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};//aciertos
+        qstarm1[0]= "¿Qué es la armonía musical?                         |";//asignacion para las preguntas
+        qstarm1[1]= "¿Qué aspecto genera tensión y resolución en música? |";//para el formato de cuadro llena 52 espacios y "|"
+        qstarm1[2]= "¿Cómo se llama la estabilidad en un acorde?         |";
+        qstarm1[3]= "¿Qué es una disonancia?                             |";
+        qstarm1[4]= "El término \"armonía\" proviene del griego y significa|";
+        qstarm1[5]= "¿Cuál es el verbo griego del que deriva “armonía”?  |";
+        qstarm1[6]= "La armonía aporta principalmente:                   |";
+        qstarm1[7]= "¿Cuál de los siguientes NO es un elemento básico?   |";
+        qstarm1[8]= "¿Qué se encarga de medir el paso de los acordes?    |";
+        qstarm1[9]= "Los acordes se forman principalmente con:          |";
+        qstarm1opc1[0]="La velocidad de una pieza musical                 |";//opcion 1
+        qstarm1opc1[1]="El tempo                                          |";//para el formato de cuadro llena 51 espacios y "|"
+        qstarm1opc1[2]="Disonancia                                        |";
+        qstarm1opc1[3]="Un intervalo inestable                            |";
+        qstarm1opc1[4]="Fuerza o energía                                  |";
+        qstarm1opc1[5]="Harmaino                                          |";
+        qstarm1opc1[6]="Silencio y pausas                                 |";
+        qstarm1opc1[7]="Intervalos                                        |";
+        qstarm1opc1[8]="Ritmo armónico                                    |";
+        qstarm1opc1[9]="Notas simultáneas                                 |";
+        qstarm1opc2[0]="Notas simultáneas formando acordes                |";//opcion 2
+        qstarm1opc2[1]="La melodía                                        |";
+        qstarm1opc2[2]="Tonalidad                                         |";
+        qstarm1opc2[3]="Un ritmo lento                                    |";
+        qstarm1opc2[4]="Conjunto, acuerdo, concordia                      |";
+        qstarm1opc2[5]="Harmozo                                           |";
+        qstarm1opc2[6]="Ruido y tensión                                   |";
+        qstarm1opc2[7]="Acordes                                           |";
+        qstarm1opc2[8]="Melodía                                           |";
+        qstarm1opc2[9]="Ritmos repetitivos                                |";
+        qstarm1opc3[0]="El timbre de un instrumento                       |";//opcion 3
+        qstarm1opc3[1]="La armonía                                        |";
+        qstarm1opc3[2]="Consonancia                                       |";
+        qstarm1opc3[3]="Una melodía suave                                 |";
+        qstarm1opc3[4]="Ruido o caos                                      |";
+        qstarm1opc3[5]="Harmoto                                           |";
+        qstarm1opc3[6]="Más velocidad                                     |";
+        qstarm1opc3[7]="Compás de 4/4                                     |";
+        qstarm1opc3[8]="Tempo                                             |";
+        qstarm1opc3[9]="Melodías rápidas                                  |";
+        qstarm1opc4[0]="La organización de ritmos                         |";//opcion 4
+        qstarm1opc4[1]="El compás                                         |";
+        qstarm1opc4[2]="Modulación                                        |";
+        qstarm1opc4[3]="Un sonido que genera tensión                      |";
+        qstarm1opc4[4]="Movimiento o cambio                               |";
+        qstarm1opc4[5]="Harmenein                                         |";
+        qstarm1opc4[6]="Estructura, color emocional y soporte a la melodía|";
+        qstarm1opc4[7]="Tonalidad                                         |";
+        qstarm1opc4[8]="Timbre                                            |";
+        qstarm1opc4[9]="Escalas mayores únicamente                        |";
+        int[] respuestasCorrectas = {2, 3, 3, 4, 2, 2, 4, 3, 1, 1};//aciertos
         for (int i = 0; i < respuestasCorrectas.length; i++) {//aqui solo se modifican los aciertos NO SE TOCA NADA MÁS
             screen();
             System.out.println("        |                                                                    |");
             System.out.print("        |     Pregunta " + (i + 1)+ " ");
             System.out.println(qstarm1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     1) Opción 1 ");
+            System.out.print("        |              1)  ");
             System.out.println(qstarm1opc1[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     2) Opción 2 ");
+            System.out.print("        |              2)  ");
             System.out.println(qstarm1opc2[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     3) Opción 3 ");
+            System.out.print("        |              3)  ");
             System.out.println(qstarm1opc3[i]);
             System.out.println("        |                                                                    |");
-            System.out.print("        |     4) Opción 4 ");
+            System.out.print("        |              4)  ");
             System.out.println(qstarm1opc4[i]);
             System.out.println("        |                                                                    |");
             System.out.println("        |        Tu respuesta:                                               |");//esto no se modifica
@@ -1349,16 +1482,40 @@ public class DJPython {
                 pausar();
             }
         }
-        screen();
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Resultados del cuestionario:                                   |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
-        System.out.println("        |                                                                    |");
-        System.out.println("        |     Errores: " + errores+"                                                     |");
-        System.out.println("        |____________________________________________________________________|");
-        pausar();
-        cuestionarios();
+        if (aciertos==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else if(errores==10){
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                    |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }else{
+            screen();
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Resultados del cuestionario:                                   |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Aciertos: " + aciertos+"                                                    |");
+            System.out.println("        |                                                                    |");
+            System.out.println("        |     Errores: " + errores+"                                                     |");
+            System.out.println("        |____________________________________________________________________|");
+            pausar();
+            cuestionarios();
+        }
     }//acaba el módulo de teoría musical
     //inicio del modulo de equipo de audio
     public static void equipo(){//menu de equipo de audio
@@ -1761,4 +1918,6 @@ public class DJPython {
         System.out.println("        |                                 __/ |                              |");
         System.out.println("        |                                |___/                               |");
         System.out.println("        |____________________________________________________________________|");
-    }}
+    }
+}
+
